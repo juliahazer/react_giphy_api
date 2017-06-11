@@ -1,0 +1,17 @@
+.SearchForm {
+  display: inline-block;
+}
+
+input {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+#searchBtn {
+  color: white;
+  background-color: black;
+  border: none;
+  margin: 0px 5px;
+}
