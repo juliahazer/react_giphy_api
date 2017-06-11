@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   lookupGiphys(searchTerm) {
-    var url = `http://api.giphy.com/v1/gifs/search?q=${searchTerm}&api_key=dc6zaTOxFJmzC`;
+    var url = `https://api.giphy.com/v1/gifs/search?q=${searchTerm}&api_key=dc6zaTOxFJmzC`;
     console.log(url);
     var results = this.state.results.slice();
     axios.get(url).then(data => {
